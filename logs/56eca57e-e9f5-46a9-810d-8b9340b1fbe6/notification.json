@@ -1,0 +1,16 @@
+[
+  {
+    "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
+    "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
+    "cwd": "/Users/coler/dev-personal/cli-slave-master",
+    "hook_event_name": "Notification",
+    "message": "Claude needs your permission to use Bash"
+  },
+  {
+    "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
+    "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
+    "cwd": "/Users/coler/dev-personal/cli-slave-master",
+    "hook_event_name": "Notification",
+    "message": "Claude needs your permission to use Write"
+  }
+]

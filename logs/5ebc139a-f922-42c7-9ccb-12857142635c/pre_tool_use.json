@@ -1,0 +1,13 @@
+[
+  {
+    "session_id": "5ebc139a-f922-42c7-9ccb-12857142635c",
+    "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/5ebc139a-f922-42c7-9ccb-12857142635c.jsonl",
+    "cwd": "/Users/coler/dev-personal/cli-slave-master",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git add -A && git commit -m \"Update logs and tracking files\" && git push",
+      "description": "Stage all changes, commit, and push"
+    }
+  }
+]

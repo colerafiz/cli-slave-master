@@ -3,56 +3,56 @@
     "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
     "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
     "cwd": "/Users/coler/dev-personal/cli-slave-master",
-    "hook_event_name": "UserPromptSubmit",
-    "prompt": "Please commit and push to main"
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
   },
   {
     "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
     "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
     "cwd": "/Users/coler/dev-personal/cli-slave-master",
-    "hook_event_name": "UserPromptSubmit",
-    "prompt": "How are u doing today"
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
   },
   {
     "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
     "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
     "cwd": "/Users/coler/dev-personal/cli-slave-master",
-    "hook_event_name": "UserPromptSubmit",
-    "prompt": "I don't remember having voice enabled for claude"
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
   },
   {
     "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
     "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
     "cwd": "/Users/coler/dev-personal/cli-slave-master",
-    "hook_event_name": "UserPromptSubmit",
-    "prompt": "I have no API keys setup, why is it working"
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
   },
   {
     "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
     "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
     "cwd": "/Users/coler/dev-personal/cli-slave-master",
-    "hook_event_name": "UserPromptSubmit",
-    "prompt": "thats so cool"
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
   },
   {
     "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
     "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
     "cwd": "/Users/coler/dev-personal/cli-slave-master",
-    "hook_event_name": "UserPromptSubmit",
-    "prompt": "can u open that file in zed"
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
   },
   {
     "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
     "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
     "cwd": "/Users/coler/dev-personal/cli-slave-master",
-    "hook_event_name": "UserPromptSubmit",
-    "prompt": "Could we rebuild this in a single file rust script ?"
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
   },
   {
     "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
     "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
     "cwd": "/Users/coler/dev-personal/cli-slave-master",
-    "hook_event_name": "UserPromptSubmit",
-    "prompt": "commit and push this pls"
+    "hook_event_name": "Stop",
+    "stop_hook_active": false
   }
 ]

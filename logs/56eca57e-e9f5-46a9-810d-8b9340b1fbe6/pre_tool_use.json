@@ -9,5 +9,69 @@
       "command": "git add -A && git commit -m \"Update README.MD and remove Starter file\" && git push origin main",
       "description": "Stage all changes, commit, and push to main"
     }
+  },
+  {
+    "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
+    "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
+    "cwd": "/Users/coler/dev-personal/cli-slave-master",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/Users/coler/dev-personal/cli-slave-master/.claude/hooks/post_tool_use.py"
+    }
+  },
+  {
+    "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
+    "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
+    "cwd": "/Users/coler/dev-personal/cli-slave-master",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Read",
+    "tool_input": {
+      "file_path": "/Users/coler/dev-personal/cli-slave-master/.claude/hooks/utils/tts/pyttsx3_tts.py"
+    }
+  },
+  {
+    "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
+    "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
+    "cwd": "/Users/coler/dev-personal/cli-slave-master",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "edit /Users/coler/dev-personal/cli-slave-master/.claude/hooks/utils/tts/pyttsx3_tts.py",
+      "description": "Open pyttsx3_tts.py in Zed editor"
+    }
+  },
+  {
+    "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
+    "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
+    "cwd": "/Users/coler/dev-personal/cli-slave-master",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Write",
+    "tool_input": {
+      "file_path": "/Users/coler/dev-personal/cli-slave-master/tts.rs",
+      "content": "#!/usr/bin/env rust-script\n//! ```cargo\n//! [dependencies]\n//! tts = \"0.26\"\n//! rand = \"0.8\"\n//! ```\n\nuse rand::seq::SliceRandom;\nuse std::env;\nuse tts::Tts;\n\nfn main() -> Result<(), Box<dyn std::error::Error>> {\n    // Initialize TTS engine\n    let mut tts = Tts::default()?;\n    \n    // Configure settings\n    tts.set_rate(1.2)?;    // Slightly faster than normal\n    tts.set_volume(0.8)?;  // 80% volume\n    \n    println!(\"\ud83c\udf99\ufe0f  Rust TTS\");\n    println!(\"===============\");\n    \n    // Get text from command line arguments or use default\n    let args: Vec<String> = env::args().collect();\n    let text = if args.len() > 1 {\n        args[1..].join(\" \")\n    } else {\n        // Default completion messages\n        let messages = vec![\n            \"Work complete!\",\n            \"All done!\",\n            \"Task finished!\",\n            \"Job complete!\",\n            \"Ready for next task!\",\n        ];\n        messages.choose(&mut rand::thread_rng())\n            .unwrap_or(&\"Done!\")\n            .to_string()\n    };\n    \n    println!(\"\ud83c\udfaf Text: {}\", text);\n    println!(\"\ud83d\udd0a Speaking...\");\n    \n    // Speak the text\n    tts.speak(&text, true)?;\n    \n    println!(\"\u2705 Playback complete!\");\n    \n    Ok(())\n}"
+    }
+  },
+  {
+    "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
+    "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
+    "cwd": "/Users/coler/dev-personal/cli-slave-master",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "chmod +x tts.rs",
+      "description": "Make the Rust script executable"
+    }
+  },
+  {
+    "session_id": "56eca57e-e9f5-46a9-810d-8b9340b1fbe6",
+    "transcript_path": "/Users/coler/.claude/projects/-Users-coler-dev-personal-cli-slave-master/56eca57e-e9f5-46a9-810d-8b9340b1fbe6.jsonl",
+    "cwd": "/Users/coler/dev-personal/cli-slave-master",
+    "hook_event_name": "PreToolUse",
+    "tool_name": "Bash",
+    "tool_input": {
+      "command": "git add tts.rs && git commit -m \"Add Rust TTS script for offline text-to-speech\n\n- Single-file Rust script using system's native TTS engine\n- No API keys required, fully offline operation\n- Supports custom text via CLI args or random completion messages\n- Cross-platform compatibility via tts crate\" && git push origin main",
+      "description": "Stage, commit and push the Rust TTS script"
+    }
   }
 ]
